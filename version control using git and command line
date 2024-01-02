@@ -1,0 +1,18 @@
+In this we use version control using git and command line.
+This is chapter1 of story directory for version control.
+3.(git init)-used to create/initialized empty git local repository in the current directory.
+4.(ls)-It is used to display files in the current directory,(ls -a)- is used to display all files in the current directory including hidden files.
+
+
+
+git Commands ***************************************
+1.(git status)- is used to see what's currently inside in the staging area.
+2.(git add "file_name")- is used to add/track files present in the current directory to staging area.
+    If we use (git add .)- it will commit all in the present directory.
+3.(git commit -m "Chapter1 Compl;eted" )("message what commit/chaange done like-'Initial Commit').
+4.(git log)- is used to see what commit done and at what time.
+5.(git checkout file_name)- it will update the current chapter1.txt to the commit one of local git repository.
+6.(git add file_name
+git commit --amend) is used to update the commit.
+7.(git remote add origin https:///)-this is used to tell computer that we had to export git to remote at origin(any name) then http address of github repository.
+8.(git push -u origin main)-is used to push or connect local to git repository.
